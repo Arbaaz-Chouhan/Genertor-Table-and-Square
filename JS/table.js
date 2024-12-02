@@ -26,7 +26,7 @@ function createTable(num) {
         tableDiv.append(div);
     }
 
-    tableContainer.append(tableDiv); 
+    tableContainer.append(tableDiv);
 }
 
 
