@@ -1,0 +1,26 @@
+body{
+    background-color:rgba(47, 79, 79, 0.973)
+}
+
+
+.mainLogo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.logo {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+
+
+}

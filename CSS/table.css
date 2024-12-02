@@ -1,0 +1,145 @@
+body {
+    background-color: rgba(0, 0, 0, 0.733);
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+input {
+    width: 400px;
+    padding: 20px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    outline: none;
+}
+
+button {
+    height: 75px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.478);
+    font-size: 30px;
+}
+
+
+
+
+#tableContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 60px;
+}
+
+
+.table-div {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: rgba(100, 148, 237, 0.511);
+    color: crimson;
+
+}
+
+.table-div:hover {
+    transform: translateY(-5px);
+
+}
+
+.table {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+
+
+@media screen and (max-width:530px) {
+    input {
+        width: 300px;
+        padding: 10px;
+
+    }
+
+    button {
+        height: 55px;
+        padding: 10px;
+
+    }
+
+    #tableContainer {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 300px;
+        margin-top: 60px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:530px) {
+
+
+    #tableContainer {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 60px;
+    }
+
+}
+
+@media screen and (min-width:880px) {
+
+    #tableContainer {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+
+}
+
+@media screen and (min-width:1220px) {
+
+    #tableContainer {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+
+}
+
+@media screen and (min-width:1500px) {
+
+    #tableContainer {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 60px;
+    }
+
+}
+
+@media screen and (min-width:1750px) {
+
+    #tableContainer {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(6, 1fr);
+        margin-top: 60px;
+    }
+
+}
